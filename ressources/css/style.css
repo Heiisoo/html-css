@@ -13,10 +13,7 @@ background-size: cover;
 background-position: center;
 height: 100vh;
 }
-.row {
-  max-width: 1140px;
-  margin: 0 auto;
-}
+
 .manga-text-box {
   position: absolute;  /* positionne l’élément suivant les coordonnées top et left /// Voir PDF */
   top:50%;
