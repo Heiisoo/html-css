@@ -1,3 +1,5 @@
+/* ------------------- GENERAL -----------------*/
+
 html {
   background: #fff;                               /* couleur de fond */
   font-family:  ‘Lato’,‘Arial’, sans-serif;       /* police de caractère */
@@ -13,7 +15,10 @@ header {
   background-position: center;
   height: 100vh;
 }
-
+.row{
+  max-width: 1200px;
+  margin: 0 auto;
+}
 .manga-text-box {
   position: absolute;  /* positionne l’élément suivant les coordonnées top et left /// Voir PDF */
   top:50%;
@@ -21,6 +26,8 @@ header {
   transform: translate(-50%,-50%);  /* Elle permet d’effectuer une translation (un déplacement) de l’élément sur les axes X et Y. /// Voir PDF */
   width: 1140px;
 }
+
+/* ------------------- BOUTON first -----------------*/
 
 .btn{
   padding: 10px 30px;
@@ -33,6 +40,7 @@ header {
 .btn:hover{
   border: 5px solid pink;
 }
+
 .btn-full{
   background-color: pink;
   color: #fff;
@@ -44,4 +52,28 @@ header {
 .btn-ghost:hover {
   background-color: black;
   color:white;
+}
+/* ------------------- BOUTON end -----------------*/
+
+
+/* ------------------- LOGO ET MENU -----------------*/
+.logo{
+  height: 100px;
+  float:left;
+  margin-top: 20px;
+}
+.main-nav{
+  list-style: none;
+  float: right;
+  margin-top: 20px;
+}
+.main-nav li{
+  display: inline-block;
+  margin-left: 40px;
+  text-transform: uppercase;
+}
+.main-nav li a{
+  text-decoration: none;
+  color: #fff;
+font-size: 90%;
 }
