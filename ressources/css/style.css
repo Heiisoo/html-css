@@ -1,79 +1,118 @@
 /* ------------------- GENERAL -----------------*/
 
 html {
-  background: #fff;                               /* couleur de fond */
-  font-family:  ‘Lato’,‘Arial’, sans-serif;       /* police de caractère */
-  font-weight : 300;                              /* épaisseur de la police */
-  font-size: 20px;                                /* taille de la police */
-  color: #555;                                    /* couleur de la police */
-  text-rendering: optimizeLegibility;             /*  /// Voir PDF */
+  background: #fff;
+  /* couleur de fond */
+  font-family: ‘Lato’, ‘Arial’, sans-serif;
+  /* police de caractère */
+  font-weight: 300;
+  /* épaisseur de la police */
+  font-size: 20px;
+  /* taille de la police */
+  color: #555;
+  /* couleur de la police */
+  text-rendering: optimizeLegibility;
+  /*  /// Voir PDF */
 }
 
 header {
-  background-image: linear-gradient(rgba(25, 127, 40, 0.7), rgba(49, 255, 81, 0.7)), url(img/onepunch.jpg); /* Ajout background et filtre */
+  background-image: linear-gradient(rgba(25, 127, 40, 0.7), rgba(49, 255, 81, 0.7)), url(img/onepunch.jpg);
+  /* Ajout background et filtre */
   background-size: cover;
   background-position: center;
   height: 100vh;
 }
-.row{
+
+.row {
   max-width: 1200px;
   margin: 0 auto;
 }
+
 .manga-text-box {
-  position: absolute;  /* positionne l’élément suivant les coordonnées top et left /// Voir PDF */
-  top:50%;
-  left:50%;
-  transform: translate(-50%,-50%);  /* Elle permet d’effectuer une translation (un déplacement) de l’élément sur les axes X et Y. /// Voir PDF */
+  position: absolute;
+  /* positionne l’élément suivant les coordonnées top et left /// Voir PDF */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* Elle permet d’effectuer une translation (un déplacement) de l’élément sur les axes X et Y. /// Voir PDF */
   width: 1140px;
 }
 
 /* ------------------- BOUTON first -----------------*/
 
-.btn{
+.btn {
   padding: 10px 30px;
   border: 1px solid #fff;
   border-radius: 50px;
   font-weight: 100;
-
 }
 
-.btn:hover{
+.btn:hover {
   border: 5px solid pink;
 }
 
-.btn-full{
+.btn-full {
   background-color: pink;
   color: #fff;
 }
-.btn-ghost{
+
+.btn-ghost {
   color: pink;
 }
 
 .btn-ghost:hover {
   background-color: black;
-  color:white;
+  color: white;
 }
+
 /* ------------------- BOUTON end -----------------*/
 
-
 /* ------------------- LOGO ET MENU -----------------*/
-.logo{
+
+.logo {
   height: 100px;
-  float:left;
+  float: left;
   margin-top: 20px;
 }
-.main-nav{
+
+.main-nav {
   list-style: none;
   float: right;
   margin-top: 20px;
 }
-.main-nav li{
+
+.main-nav li {
   display: inline-block;
   margin-left: 40px;
   text-transform: uppercase;
 }
-.main-nav li a{
+
+.main-nav li a {
   text-decoration: none;
   color: #fff;
-font-size: 90%;
+  font-size: 90%;
+}
+
+.ion-android-star {
+  font-size: 45px;
+  color: orange;
+}
+
+.ion-ios-pulse-strong {
+  font-size: 45px;
+  color: brown;
+}
+
+.ion-ios-heart {
+  font-size: 45px;
+  color: red;
+}
+
+.ion-ios-cog {
+  font-size: 45px;
+  color: black;
+}
+
+.col-md-3 {
+  text-align: center;
 }
