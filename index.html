@@ -1,69 +1,106 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8"/>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="vendors/css/reboot.css"/>
-    <link rel="stylesheet" type="text/css" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" />
-    <link rel="stylesheet" type="text/css" href="ressources/css/style.css"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-      <!-- Bootstrap CSS -->
+<head>
+  <meta charset="utf-8" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="vendors/css/reboot.css" />
+  <link rel="stylesheet" type="text/css" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" />
+  <link rel="stylesheet" type="text/css" href="ressources/css/style.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>Les mangas</title>
-    <link href="https://fonts.googleapis.com/css?family=Lato:100,300i,400,900" rel="stylesheet">
+  <!-- Bootstrap CSS -->
+
+  <title>Les mangas</title>
+  <link href="https://fonts.googleapis.com/css?family=Lato:100,300i,400,900" rel="stylesheet">
 
 
-  </head>
-  <body>
-    <header>
-      <nav>
-        <div class="row">
-          <img class="logo" src="ressources/img/logo.png" alt="logo SnK">
-          <ul class="main-nav">
-            <li><a href="#">Livres</a></li>
-            <li><a href="#">DVD</a></li>
-            <li><a href="#">Jeux vidéo</a></li>
-            <li><a href="#">Contact</a></li>
-          </ul>
-        </div>
-      </nav>
-    <div class="manga-text-box">  <!-- première rangé -->
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div class="row">
+        <img class="logo" src="ressources/img/logo.png" alt="logo SnK">
+        <ul class="main-nav">
+          <li><a href="#livres">Livres</a></li>
+          <li><a href="#">DVD</a></li>
+          <li><a href="#">Jeux vidéo</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <div class="manga-text-box">
+      <!-- première rangé -->
       <h1>Site de mangas</h1>
       <a class="btn btn-full" href="#">shonen</a>
       <a class="btn btn-ghost" href="#">seinen</a>
+    </div>
+  </header>
+  <!--Les livres-->
+  <section id="livres">
+    <div class="row">
+      <h2>Nouveauté livres 2018</h2>
+
+      <p class="long-copy">Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un peintre anonyme assembla ensemble des morceaux
+        de texte pour réaliser un livre spécimen de polices de texte. Il n'a pas fait que survivre cinq siècles, mais s'est aussi adapté à la bureautique informatique, sans que son contenu n'en soit modifié. Il a été popularisé dans les années 1960 grâce
+        à la vente de feuilles Letraset contenant des passages du Lorem Ipsum, et, plus récemment, par son inclusion dans des applications de mise en page de texte, comme Aldus PageMaker.</p>
+      <h2>pouet je suis le camion.</h2>
+    </div>
+    <div class="row">
+      <div class="col-md-3">
+        <i class="ion-android-star deco"></i>
+        <h3>Dragon ball super</h3>
+        <p>Tome 35</p>
       </div>
-    </header>
-   <!--Les livres-->
-    <section>
-      <div class="row">
-        <h2>Nouveauté</h2>
-        <p>Nouvelles sortie de Mars 2018</p>
+      <div class="col-md-3">
+        <i class="ion-ios-pulse-strong deco"> </i>
+        <h3>Hokuto no Ken</h3>
+        <p>Remake</p>
       </div>
-      <div class="row">
-        <div class="col-md-3">
-          <i class="ion-android-star deco"></i>
-          <h3>Dragon ball super</h3>
-          <p>Tome 35</p>
-        </div>
-        <div class="col-md-3">
-          <i class="ion-ios-pulse-strong deco"> </i>
-          <h3>Ken le survivant</h3>
-          <p>Remake</p>
-        </div>
-        <div class="col-md-3">
-          <i class="ion-ios-heart deco"></i>
-          <h3>Black Clover</h3>
-          <p>tome 85</p>
-        </div>
-        <div class="col-md-3">
-          <i class="ion-ios-cog"></i>
-          <h3>Berserk</h3>
-          <p>tome 78</p>
+      <div class="col-md-3">
+        <i class="ion-ios-heart deco"></i>
+        <h3>Black Clover</h3>
+        <p>tome 85</p>
+      </div>
+      <div class="col-md-3">
+        <i class="ion-ios-cog"></i>
+        <h3>Berserk</h3>
+        <p>tome 78</p>
 
 
       </div>
-    </section>
+  </section>
+  <section>
+    <ul class="range-photo">
+      <li>
+        <figure class="photo">
+          <img src="ressources/img/1.jpg">
+        </figure>
+      </li>
+      <li>
+        <figure class="photo">
+          <img src="ressources/img/2.jpg">
+        </figure>
+      </li>
+      <li>
+        <figure class="photo">
+          <img src="ressources/img/3.jpg">
+        </figure>
+      </li>
+      <li>
+        <figure class="photo">
+          <img src="ressources/img/4.jpg">
+        </figure>
+      </li>
 
-  </body>
+    </ul>
+
+
+
+  </section>
+
+
+</body>
+
 </html>
