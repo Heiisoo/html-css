@@ -167,3 +167,42 @@ h2::before{
   opacity: 1;
   transform: scale(1)
 }
+i {
+  text-align: center;
+}
+/*--------Mobile-------*/
+.col-mobile{
+  margin-top: 30px;
+}
+
+.col-mobile:first-child{
+  text-align: right;
+  padding-right: 3%;
+}
+
+.col-mobile:last-child{
+  padding-left: 3%;
+}
+
+.iphone{
+  width: 40%;
+}
+
+.service-mobile div{
+  text-align: center;
+  border: 3px solid orange;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  float: left;
+  margin-right: 25px;
+  font-size: 150%;
+}
+.service-mobile{
+  margin-bottom: 50px;
+}
+.btn-a img{
+  height: 50px;
+  width: auto;
+  margin-right: 20px;
+}
