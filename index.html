@@ -298,11 +298,116 @@
             </div>
           </div>
         </div>
+      </section>
+      <!--Questionnaires-->
 
-
-
+     <section>
+        <div class="row">
+          <h2>Vous avez des question ? Nous avons les réponses.</h2>
+        </div>
+          <div class="col-md-12 questionnaire">
+            <form action="" method="get">
+              <div>Nom  <input  type="text" name="name"></div>
+              <div >Email<input  type="text" name="name"></div>
+              <div class="list-contact">A qui tu veux parler bro ?
+              <select name="device">
+              <option value="service">Service client</option>
+              <option value="contact">Contact</option>
+              <option value="Prix">Prix</option>
+              <option value="Livres">Livres</option>
+              </select>
+              </div>
+              <div class="newsletter">Voulez-vous avoir des mails chiant ?<input type="radio" name="newsletter" value="yes" checked> oui je m'abonne a la newsletter.</div>
+              <div class="question">Rédiger votre question<textarea name="question-form" rows=4 cols=40>Votre message.</textarea></div>
+               <div class=""><button type="button" onclick="alert('Pouet!')">Envoyer</button></div>
+            </form>
+          </div>
       </section>
 
+
+
+
+
+      <section>
+        <div class="row">
+          <h2>Vous avez des question ? Nous avons les réponses.</h2>
+        </div>
+        <div class="row">
+          <form method="post" action="" class="contact-form">
+            <div class="row">
+              <div class="col-md-4">
+                <label for="name">Nom</label>
+              </div>
+              <div class="col-md-8">
+               <input type="text" id="name" value="Toto" required/>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-4">
+                <label for="email">Email</label>
+              </div>
+              <div class="col-md-8">
+               <input type="email" id="email" required/>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-4">
+                <label for="destinataire">Quels services ?</label>
+              </div>
+              <div class="col-md-8">
+                <select id="destinataire-select">
+                  <option value="">Selectionner un service</option>
+                  <option value="client">Service client</option>
+                  <option value="facture" selected>Service facture</option>
+                  <option value="sav">Service SAV</option>
+                  <option value="technique">Service technique</option>
+                </select>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-4">
+                <label>Recevoir notre newsletter</label>
+              </div>
+              <div class="col-md-8">
+               <input type="checkbox" id="newsletter" checked/> Oui je m'abonne.
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-4">
+                <label>Rédiger votre question</label>
+              </div>
+              <div class="col-md-8">
+               <textarea id="message" placeholder="Ecrire votre message"></textarea>
+              </div>
+            </div>
+
+            <div class="row">
+            <div class="submit">
+              <input type="submit" value="Envoyer" />
+
+            </div>
+            </div>
+
+          </form>
+        </div>
+
+      </section>
+      <footer>
+        <div class="row">
+          <div class="col-md-6">
+            <ul class="footer-nav">
+              <li>CGV</li>
+              <li>Mentions légale</li>
+            </ul>
+          </div>
+          <div class="col-md-6">
+            <ul class="footer-social">
+              <li>Facebook</li>
+              <li>Twitter</li>
+            </ul>
+          </div>
+        </div>
+      </footer>
 
     </body>
 
