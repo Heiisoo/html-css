@@ -17,6 +17,7 @@ html {
 
 header {
   background-image: linear-gradient(rgba(25, 127, 40, 0.7), rgba(49, 255, 81, 0.7)), url(img/onepunch.jpg);
+  background-attachment: fixed;
   /* Ajout background et filtre */
   background-size: cover;
   background-position: center;
@@ -205,4 +206,67 @@ i {
   height: 50px;
   width: auto;
   margin-right: 20px;
+}
+.col-md-3 img{
+  width: 105%;
+  margin-bottom: 15px;
+
+}
+.col-md-3 p:first-child{
+  text-transform: uppercase;
+  font-size: 115%;
+}
+.col-md-3 i{
+  color: orange;
+  padding-left: 10px;
+  font-size: 120%;
+}
+.col-md-3 a{
+  color: orange;
+  font-size: 15px;
+  text-decoration: none;
+}
+.location,.tel,.email{
+  display: flex;
+}
+.col-md-3 .pouet{
+  margin-left: 20px;
+}
+h3{
+  font-size: 120%;
+  margin-bottom: 20px;
+}
+.icon-small{
+  color: orange;
+  margin-right: 10px;
+  font-size: 120%;
+}
+.city{
+  background: #7f00ff; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #7f00ff, #e100ff); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #7f00ff, #e100ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+blockquote{
+  font-style: italic;
+  margin-top: 40px;
+  line-height: 145%;
+}
+
+blockquote::before{
+  content:"\201C";
+  font-size:500%;
+  display: block;
+}
+
+cite{
+  font-size: 90%;
+  margin-top: 15px;
+  display: block;
+}
+
+cite img{
+  height: 45px;
+  border-radius: 50%;
+  margin-right: 10px;
 }
